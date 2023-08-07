@@ -1,0 +1,194 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainpage{
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mainpage .heading{
+    display: flex;
+    justify-content: center;
+}
+
+.mainpage .container{
+    padding: 35px 0px 50px 45px;
+    background-color: white;
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+h1{
+    color: green;
+    font-weight: 500;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+}
+
+.container form .input{
+    padding: 20px 30px 20px 30px;
+    margin-right: 35px;
+    border: 2px solid rgb(167, 166, 166);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+    transition: 0.5s;
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.content{
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content .discount-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.radio{
+    width: 25px;
+    cursor: pointer;
+}
+
+#discount{
+    font-size: 20px;
+    text-decoration: line-through;
+    color: rgb(151, 151, 151);
+}
+
+
+.input .list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input .list .details{
+    font-size: 23px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.input .list .selection{
+    font-size: 23px;
+    font-weight: 600;
+    padding-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+.selection select{
+    background-color: white;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.selection option{
+    color: black;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    font-size: 21px;
+    font-weight: 300;
+}
+
+#size{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+#colour{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+
+.data{
+    position: relative;
+    transition: 0.5s;
+    overflow-y: auto;
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 38px;
+    font-size: 25px;
+}
+
+.submit{
+    padding-right: 38px ;
+}
+
+.submit button{
+    height: 50px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #019267;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0 0 10px 2px black;
+}
+
+.copyright{
+    font-size: 20px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
